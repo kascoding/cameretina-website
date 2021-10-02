@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+
+  <!-- font awesome kit -->
+  <script src="https://kit.fontawesome.com/43c9f9bdf0.js" crossorigin="anonymous"></script>
+  <!-- end of font awesome kit -->
+
+
+  <!-- this is font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- the end of the css -->
+
+  <!-- this is the css section   -->
+  <link rel="stylesheet" href="css/simple-lightbox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end of the css -->
+
+  <title>camretina - photograph from you heart</title>
+</head>
+
+
+<body id="home">
+  <header>
+
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Camretina</h1>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">about</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section-a">
+
+    <div class="container">
+      <div>
+        <h1>the mirror is opaque,but you see someone</h1>
+        <p>
+          Lorem Ipsum has been the industry's standard dummy
+          text ever since the 1500s, when an unknown printer
+          took a galley of type and scrambled it to make
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+
+      <img class="img_debut" src="img/camretina_updated.png" alt="" />
+
+    </div>
+
+
+  </section>
+
+  <!-- overlay text -->
+
+  <section id="about" class="section-b">
+    <div class="overlay">
+      <div class="section-b-inner py-5">
+        <h3 class="text-2"> Take the photos cause </h3>
+        <h3 class="text-5 mt-1"> No one will capture them from you </h3>
+        <p class="mt-1">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+          took a galley of type and scrambled it to make a type specimen book. It has survived not only five c
+          enturies, but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- gallery -->
+
+  <section class="section-c">
+    <div class="gallery">
+      <a href="img/ashim.jpg" class="big"><img src="img/ashim.jpg" alt=""></a>
+
+      <a href="img/charl.jpg" class="big"><img src="img/charl.jpg" alt=""></a>
+
+      <a href="img/david.jpg" class="big"><img src="img/david.jpg" alt=""></a>
+
+    <!-- <a href="img/jean.jpg" class="big"><img src="img/jean.jpg" alt=""></a> -->
+
+      <a href="img/geran.jpg" class="big"><img src="img/geran.jpg" alt=""></a>
+
+    <a href="img/hannes.jpg" class="big"><img src="img/hannes.jpg" alt=""></a>
+
+    <a href="img/mama_africa.jpg" class="big"><img src="img/mama_africa.jpg" alt=""></a>
+
+    <a href="img/masai.jpg" class="big"><img src="img/masai.jpg" alt=""></a>
+
+    <a href="img/mongolf.jpg" class="big" style="background:url(img/mongolf.jpg); background-position: center; background-size: cover;"><img style="opacity: 0" src="img/mongolf.jpg" alt=""></a>
+
+    </div>
+  </section>
+
+  <!-- the footer -->
+  <footer class="section-footer py-4 bg-primary">
+    <div class="container">
+      <div>
+        <h2 class="text-2 mb-1">lorem ipsum dolor sit</h2>
+        <a href=" http://twitter.com">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+
+        <a href=" http://facebook.com">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+
+        <a href=" http://youtube.com">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+
+      </div>
+
+      <div>
+        <h3>Company Info</h3>
+        <ul>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+
+        </ul>
+      </div>
+
+      <div>
+        <h3>BLOG Posts</h3>
+        <ul>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+        </ul>
+
+      </div>
+
+      <div>
+        <h3>Subscribe</h3>
+        <p>la vies est un chalouper rientre balam quedal remblace</p>
+        <form class="mt-1" name="email-form" method="" data-netlify="true">
+          <div class="email-form">
+            <span class="form-control-wrap">
+              <input type="email" name="email" id="email" size="40" class="form-control" placeholder="email" />
+
+            </span>
+            <button type="submit" value="submit" class="form-control submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+
+        </form>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <a id="to-top" href="#">Back to top</a>
+
+  <!-- this jquery librairy link -->
+  <!-- end of jquery -->
+
+  <!-- the javascript of the script simple lightbox -->
+  <script src="js/simple-lightbox.min.js"></script>
+  <!-- the end of the simple light box javascript -->
+  <script>
+    const gallery = new SimpleLightbox('.gallery a');
+  </script>
+</body>
+
+</html>
